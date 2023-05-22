@@ -1,0 +1,15 @@
+{
+  "language": {
+    "lang": "go"
+  },
+  "compile:options": {
+    "input": "./src",
+    "output": "./.w3bstream",
+    "extraCompileOptions": "-scheduler=none -target=wasi -no-debug"
+  },
+  "studio:options": {
+    "dev": true,
+    "projectName": "DEV_PROJECT",
+    "payload": "{ \"message\": \"hello world\" }"
+  }
+}
